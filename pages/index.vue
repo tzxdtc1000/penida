@@ -2,7 +2,6 @@
 import Header from '~/components/Header.vue';
 import Footer from '~/components/Footer.vue';
 import FooterCopy from '~/components/FooterCopy.vue';
-import VuePictureSwipe from 'vue3-picture-swipe';
 
 export default {
   // You can add component-specific logic here if needed
@@ -10,7 +9,6 @@ export default {
     Header,
     Footer,
     FooterCopy,
-    VuePictureSwipe
     
   },
   data() {
