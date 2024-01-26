@@ -1,14 +1,12 @@
 <script>
 import Header from '~/components/Header.vue';
 import Footer from '~/components/Footer.vue';
-import FooterCopy from '~/components/FooterCopy.vue';
 
 export default {
   // You can add component-specific logic here if needed
   components: {
     Header,
     Footer,
-    FooterCopy,
     
   },
   data() {
