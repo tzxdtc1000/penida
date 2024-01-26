@@ -5229,11 +5229,6 @@ vue-router@^4.1.0, vue-router@^4.2.5:
     "@vue/server-renderer" "3.4.15"
     "@vue/shared" "3.4.15"
 
-vue3-picture-swipe@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.npmjs.org/vue3-picture-swipe/-/vue3-picture-swipe-3.0.6.tgz"
-  integrity sha512-tCoWJr5cXZMk8hlycPPdo9UCl5m3ZChDVdDhHdiJedtkTZL6H0wYV6mZvL8Lz6e80kpiIXxsoltJobcePnKB0A==
-
 webidl-conversions@^3.0.0:
   version "3.0.1"
   resolved "https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz"
