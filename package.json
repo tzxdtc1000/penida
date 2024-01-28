@@ -17,13 +17,13 @@
     "postcss": "^8.4.32",
     "sass": "^1.70.0",
     "vue": "^3.4.3",
-    "vue-router": "^4.2.5",
-    "tailwindcss": "^3.4.0"
+    "vue-router": "^4.2.5"
   },
   "dependencies": {
     "vue-image-lightbox": "^7.2.0",
     "vue-lazyload": "^3.0.0",
-    "vue-light-gallery": "^1.0.1"
+    "vue-light-gallery": "^1.0.1",
+    "tailwindcss": "^3.4.0"
     
   }
 }
