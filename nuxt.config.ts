@@ -15,9 +15,7 @@ export default defineNuxtConfig({
       src: "~/plugins/main.js"
     }
   ],
-  runtimeConfig:{
-    public: {
-      baseURL: process.env.NODE_ENV === 'production' ? '/penida/' : '/'
-    }
+  app: {
+    baseURL: '/penida/'
   }
 })
