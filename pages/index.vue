@@ -14,9 +14,9 @@ export default {
       isModalOpen: false,
       currentImageIndex: 0,
       imageList: [
-        '..public/img/p1.png',
-        '../public/img/p2.png',
-        '../public/img/p3.png'
+        '/penida/_nuxt/p3.fl5iVMdc.png',
+        '/penida/_nuxt/p2.Mxb9EACA.png',
+        '/penida/_nuxt/p1.Ne-TpXgJ.png'
         // 更多图片 URL
       ]
     };
