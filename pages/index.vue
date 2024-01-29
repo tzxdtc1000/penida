@@ -133,12 +133,12 @@ export default {
 
         <!-- Right side images container -->
         <div class="flex-grow grid grid-rows-2 gap-1">
-          <!-- <div @click="openModal(1)">
+          <div @click="openModal(1)">
             <img src="../public/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
           </div>
           <div @click="openModal(2)">
             <img src="../public/img/p1.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
-          </div> -->
+          </div>
         </div>
       </div>
 
@@ -171,19 +171,19 @@ export default {
           What's Included
         </div>
         <ul>
-          <li class="text-gray-700">Boat ticket</li>
-          <li class="text-gray-700">Bottled water</li>
-          <li class="text-gray-700">Round-trip from and to hotel</li>
-          <li class="text-gray-700">Basic English-speaking guide</li>
-          <li class="text-gray-700">Simple buffet lunch</li>
+          <li class="text-gray-700">・Boat ticket</li>
+          <li class="text-gray-700">・Bottled water</li>
+          <li class="text-gray-700">・Round-trip from and to hotel</li>
+          <li class="text-gray-700">・Basic English-speaking guide</li>
+          <li class="text-gray-700">・Simple buffet lunch</li>
         </ul>
         <div class="text-3xl pt-4">
           Optional
         </div>
         <ul>
-          <li class="text-gray-700">Visit guider's home to experience local culture(Free)</li>
-          <li class="text-gray-700">Local restaurant(Pay by yourself)</li>
-          <li class="text-gray-700">Snorkelling(extra fee)</li>
+          <li class="text-gray-700">・Visit guider's home to experience local culture(Free)</li>
+          <li class="text-gray-700">・Local restaurant(Pay by yourself)</li>
+          <li class="text-gray-700">・Snorkelling(extra fee)</li>
         </ul>
       </div>
     </div>
