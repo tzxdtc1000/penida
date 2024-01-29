@@ -14,18 +14,18 @@ export default {
       isModalOpen: false,
       currentImageIndex: 0,
       imageList: [
-        '/penida/_nuxt/p3.fl5iVMdc.png',
-        '/penida/_nuxt/p2.Mxb9EACA.png',
-        '/penida/_nuxt/p1.Ne-TpXgJ.png',
-        '/penida/p4.png',
-        '/penida/p5.png',
-        '/penida/p6.png',
-        '/penida/p7.png',
-        '/penida/p8.png',
-        '/penida/p9.png',
-        '/penida/p10.png',
-        '/penida/p11.png',
-        '/penida/p12.png',
+        '/penida/img/p3.png',
+        '/penida/img/p2.png',
+        '/penida/img/p7.png',
+        '/penida/img/p4.png',
+        '/penida/img/p5.png',
+        '/penida/img/p6.png',
+        '/penida/img/p1.png',
+        '/penida/img/p8.png',
+        '/penida/img/p9.png',
+        '/penida/img/p10.png',
+        '/penida/img/p11.png',
+        '/penida/img/p12.png',
         // 更多图片 URL
       ]
     };
@@ -133,20 +133,20 @@ export default {
 
   <div class="mx-auto　">
     <div class="container mx-auto m-4">
-      <div class="grid grid-cols-3">
+      <div class="grid grid-cols-3 h-auto">
         <!-- Left large image container -->
-        <div class="flex-grow mr-1 col-span-2" @click="openModal(2)">
+        <div class="flex-grow mr-1 col-span-2 h-auto" @click="openModal(2)">
           <!-- <VuePictureSwipe :items="items"></VuePictureSwipe> -->
-          <img src="../public/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
+          <img src="/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
         </div>
 
         <!-- Right side images container -->
         <div class="flex-grow grid grid-rows-2 gap-1">
           <div @click="openModal(1)">
-            <img src="../public/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
+            <img src="/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
           </div>
           <div @click="openModal(2)">
-            <img src="../public/img/p1.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
+            <img src="/img/p7.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
           </div>
         </div>
       </div>
