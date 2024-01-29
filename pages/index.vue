@@ -137,16 +137,16 @@ export default {
         <!-- Left large image container -->
         <div class="flex-grow mr-1 col-span-2 h-auto" @click="openModal(2)">
           <!-- <VuePictureSwipe :items="items"></VuePictureSwipe> -->
-          <img src="/penida/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
+          <img src="/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
         </div>
 
         <!-- Right side images container -->
         <div class="flex-grow grid grid-rows-2 gap-1">
           <div @click="openModal(1)">
-            <img src="/penida/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
+            <img src="/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
           </div>
           <div @click="openModal(2)">
-            <img src="/penida/img/p7.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
+            <img src="/img/p7.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
           </div>
         </div>
       </div>
