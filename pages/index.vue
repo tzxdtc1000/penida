@@ -133,12 +133,12 @@ export default {
 
         <!-- Right side images container -->
         <div class="flex-grow grid grid-rows-2 gap-1">
-          <div @click="openModal(1)">
+          <!-- <div @click="openModal(1)">
             <img src="../public/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
           </div>
           <div @click="openModal(2)">
             <img src="../public/img/p1.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
-          </div>
+          </div> -->
         </div>
       </div>
 
