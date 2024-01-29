@@ -16,7 +16,16 @@ export default {
       imageList: [
         '/penida/_nuxt/p3.fl5iVMdc.png',
         '/penida/_nuxt/p2.Mxb9EACA.png',
-        '/penida/_nuxt/p1.Ne-TpXgJ.png'
+        '/penida/_nuxt/p1.Ne-TpXgJ.png',
+        '/penida/p4.png',
+        '/penida/p5.png',
+        '/penida/p6.png',
+        '/penida/p7.png',
+        '/penida/p8.png',
+        '/penida/p9.png',
+        '/penida/p10.png',
+        '/penida/p11.png',
+        '/penida/p12.png',
         // 更多图片 URL
       ]
     };
