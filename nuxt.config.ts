@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   app: {
-    cdnURL:'/penida/'
+    baseURL:'/penida/'
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
@@ -17,5 +17,5 @@ export default defineNuxtConfig({
       src: "~/plugins/main.js"
     }
   ],
-  
+
 })

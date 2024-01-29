@@ -14,9 +14,9 @@ export default {
       isModalOpen: false,
       currentImageIndex: 0,
       imageList: [
-        '../_nuxt/assets/public/img/p1.png',
-        '../_nuxt/assets/public/img/p2.png',
-        '../_nuxt/assets/public/img/p3.png'
+        '..public/img/p1.png',
+        '../public/img/p2.png',
+        '../public/img/p3.png'
         // 更多图片 URL
       ]
     };
@@ -128,16 +128,16 @@ export default {
         <!-- Left large image container -->
         <div class="flex-grow mr-1 col-span-2" @click="openModal(2)">
           <!-- <VuePictureSwipe :items="items"></VuePictureSwipe> -->
-          <img src="~/assets/public/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
+          <img src="../public/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
         </div>
 
         <!-- Right side images container -->
         <div class="flex-grow grid grid-rows-2 gap-1">
           <div @click="openModal(1)">
-            <img src="~/assets/public/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
+            <img src="../public/img/p2.png" alt="Top Right Image" class="w-full h-full rounded-tr-lg">
           </div>
           <div @click="openModal(2)">
-            <img src="~/assets/public/img/p1.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
+            <img src="../public/img/p1.png" alt="Bottom Right Image" class="w-full h-full rounded-br-lg">
           </div>
         </div>
       </div>
