@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   app: {
-    baseURL:'/penida/'
+    baseURL:'/penida123/'
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
