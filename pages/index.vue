@@ -135,7 +135,7 @@ export default {
     <div class="container mx-auto m-4">
       <div class="grid grid-cols-3 h-auto">
         <!-- Left large image container -->
-        <div class="flex-grow mr-1 col-span-2 h-auto" @click="openModal(2)">
+        <div class="flex-grow mr-1 col-span-2 h-auto" @click="openModal(0)">
           <!-- <VuePictureSwipe :items="items"></VuePictureSwipe> -->
           <img src="/img/p3.png" alt="Large Image" class="w-full h-full rounded-l-lg">
         </div>
@@ -174,7 +174,7 @@ export default {
           <li class="text-gray-700">4 person Rp 2,605,128 (651,282 / person)</li>
         </ul>
         <p class="bold">
-          ※ If you find cheaper price on other website, we can provide <span class="text-xl font-semibold text-red-400">much cheaper</span> price
+          ※ If you find cheaper price on other website, we can provide <span class="text-2xl font-semibold text-red-400">much cheaper</span> price
         </p>
         <div class="text-3xl pt-4">
           What's Included
@@ -184,16 +184,58 @@ export default {
           <li class="text-gray-700">・Bottled water</li>
           <li class="text-gray-700">・Round-trip from and to hotel</li>
           <li class="text-gray-700">・Basic English-speaking guide</li>
-          <li class="text-gray-700">・Simple buffet lunch</li>
+          <li class="text-gray-700">・Local restaurant(Pay by yourself)</li>
         </ul>
         <div class="text-3xl pt-4">
           Optional
         </div>
         <ul>
-          <li class="text-gray-700">・Visit guider's home to experience local culture(Free)</li>
-          <li class="text-gray-700">・Local restaurant(Pay by yourself)</li>
+          <li class="text-gray-700">・Visit guider's home to<span class="text-2xl font-semibold text-red-400"> experience local culture(Free)</span></li>
           <li class="text-gray-700">・Snorkelling(extra fee)</li>
         </ul>
+        <div class="text-3xl pt-4">
+          Contact
+        </div>
+        <div class="flex justify-center items-center space-x-4 m-8">
+          <div class="relative">
+            <img src="/img/ins.png" alt="First Image" class="w-full h-auto" />
+            <span class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full text-black text-lg font-bold p-2">
+              Instagram
+            </span>
+          </div>
+          <div class="relative">
+            <img src="/img/whats.png" alt="First Image" class="w-full h-auto" />
+            <span class="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-full text-black text-lg font-bold p-2 bg-opacity-50">
+              WhatsApp
+            </span>
+          </div>
+        </div>
+
+        <div class="text-3xl pt-4">
+          FAQs
+        </div>
+        <div class="font-bold">
+          ・How to book the trip?
+        </div>
+        <div class="">
+          Scan the QR code and let's chat the trip plan and price.
+        </div>
+        <div class="font-bold">
+          ・Why can you provide cheaper price?
+        </div>
+        <div class="">
+          Booking directly through us instead of other travel platforms can save on service fees.
+        </div>
+        <div class="font-bold">
+          ・Who create this website?
+        </div>
+        <div class="">
+          I visited penida in Jan 2024,
+          the guilder told me he has two children to raise but maybe can't afford their tuition fee.
+          I saw a lot of children don't wear shoes when they walk.
+          During talked with him I found the book trip system should be improved.
+
+        </div>
       </div>
     </div>
   </div>

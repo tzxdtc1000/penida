@@ -18,7 +18,7 @@ export default {
 
         <!-- Navigation Links -->
         <nav class="space-x-4">
-          <NuxtLink to="/" class="hover:underline">Home</NuxtLink>
+          <!-- <NuxtLink to="/" class="hover:underline">Home</NuxtLink> -->
           <!-- <NuxtLink to="/contact" class="hover:underline">Contact</NuxtLink>
           <NuxtLink to="/contact" class="hover:underline">AboutUs</NuxtLink> -->
         </nav>
