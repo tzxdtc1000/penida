@@ -160,7 +160,6 @@ export default {
           <li class="text-gray-700">08:00 Take the boat to Penida Island</li>
           <li class="text-gray-700">09:30 Arrive at Penida Island and meet with Cobek</li>
           <li class="text-gray-700">09:30-15:00 Angel Billabong-Broken Beach-Kelingking beach-Snorkelling(optional)
-                                                <br>※ Simple Buffet lunch included
           </li>
           <li class="text-gray-700">15:30 Take the boat back to Bali</li>
         </ul>
