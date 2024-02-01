@@ -236,6 +236,8 @@ export default {
 
         </div>
       </div>
+
+      <nuxt-link to="/about">特定商取引法に基づく表記</nuxt-link>
     </div>
   </div>
   <Footer />
